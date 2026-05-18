@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- TargetFrameworks наследуются из Directory.Build.props -->
+    <PackageId>$(MSBuildProjectName)</PackageId>
+    <Description>UCNL $(MSBuildProjectName) library</Description>
+    <PackageTags>UCNL;$(MSBuildProjectName)</PackageTags>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="UCNLNav" Version="1.0.0" />
+    <PackageReference Include="UCNLPhysics" Version="1.0.0" />
+    <PackageReference Include="UCNLSalinity" Version="1.0.1" />
+  </ItemGroup>
+
+
+  <!-- Специфичные для библиотеки пакеты -->
+
+</Project>
